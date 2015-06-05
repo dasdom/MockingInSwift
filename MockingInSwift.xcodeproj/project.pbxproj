@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F2375A221B21A2460019DFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A211B21A2460019DFD5 /* AppDelegate.swift */; };
-		F2375A241B21A2460019DFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A231B21A2460019DFD5 /* ViewController.swift */; };
-		F2375A271B21A2460019DFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2375A251B21A2460019DFD5 /* Main.storyboard */; };
 		F2375A291B21A2460019DFD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2375A281B21A2460019DFD5 /* Images.xcassets */; };
 		F2375A2C1B21A2460019DFD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2375A2A1B21A2460019DFD5 /* LaunchScreen.xib */; };
-		F2375A381B21A2460019DFD5 /* MockingInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A371B21A2460019DFD5 /* MockingInSwiftTests.swift */; };
+		F2375A451B21A3CA0019DFD5 /* NotificationOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A441B21A3CA0019DFD5 /* NotificationOneViewController.swift */; };
+		F2375A481B21A4120019DFD5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A471B21A4120019DFD5 /* NotificationView.swift */; };
+		F2375A4A1B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A491B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift */; };
+		F2375A4C1B21A7110019DFD5 /* NotificationTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A4B1B21A7110019DFD5 /* NotificationTwoViewController.swift */; };
+		F2375A831B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		F2375A1C1B21A2460019DFD5 /* MockingInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockingInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2375A201B21A2460019DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2375A211B21A2460019DFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2375A231B21A2460019DFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2375A261B21A2460019DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2375A281B21A2460019DFD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2375A2B1B21A2460019DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2375A311B21A2460019DFD5 /* MockingInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2375A361B21A2460019DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2375A371B21A2460019DFD5 /* MockingInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingInSwiftTests.swift; sourceTree = "<group>"; };
+		F2375A441B21A3CA0019DFD5 /* NotificationOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationOneViewController.swift; path = NotificationOne/NotificationOneViewController.swift; sourceTree = "<group>"; };
+		F2375A471B21A4120019DFD5 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F2375A491B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationOneViewControllerTests.swift; path = NotificationOne/NotificationOneViewControllerTests.swift; sourceTree = "<group>"; };
+		F2375A4B1B21A7110019DFD5 /* NotificationTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationTwoViewController.swift; path = NotificationTwo/NotificationTwoViewController.swift; sourceTree = "<group>"; };
+		F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationTwoViewControllerTests.swift; path = NotificationTwo/NotificationTwoViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				F2375A211B21A2460019DFD5 /* AppDelegate.swift */,
-				F2375A231B21A2460019DFD5 /* ViewController.swift */,
-				F2375A251B21A2460019DFD5 /* Main.storyboard */,
+				F2375A461B21A3D00019DFD5 /* NotificationOne */,
+				F2375A4D1B21A71E0019DFD5 /* NotificationTwo */,
+				F2375A471B21A4120019DFD5 /* NotificationView.swift */,
 				F2375A281B21A2460019DFD5 /* Images.xcassets */,
 				F2375A2A1B21A2460019DFD5 /* LaunchScreen.xib */,
 				F2375A1F1B21A2460019DFD5 /* Supporting Files */,
@@ -98,7 +103,8 @@
 		F2375A341B21A2460019DFD5 /* MockingInSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				F2375A371B21A2460019DFD5 /* MockingInSwiftTests.swift */,
+				F2375A811B21D52E0019DFD5 /* NotificationOneTests */,
+				F2375A841B21D5690019DFD5 /* NotificationTwoTests */,
 				F2375A351B21A2460019DFD5 /* Supporting Files */,
 			);
 			path = MockingInSwiftTests;
@@ -110,6 +116,38 @@
 				F2375A361B21A2460019DFD5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2375A461B21A3D00019DFD5 /* NotificationOne */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A441B21A3CA0019DFD5 /* NotificationOneViewController.swift */,
+			);
+			name = NotificationOne;
+			sourceTree = "<group>";
+		};
+		F2375A4D1B21A71E0019DFD5 /* NotificationTwo */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A4B1B21A7110019DFD5 /* NotificationTwoViewController.swift */,
+			);
+			name = NotificationTwo;
+			sourceTree = "<group>";
+		};
+		F2375A811B21D52E0019DFD5 /* NotificationOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A491B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift */,
+			);
+			name = NotificationOneTests;
+			sourceTree = "<group>";
+		};
+		F2375A841B21D5690019DFD5 /* NotificationTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */,
+			);
+			name = NotificationTwoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2375A271B21A2460019DFD5 /* Main.storyboard in Resources */,
 				F2375A2C1B21A2460019DFD5 /* LaunchScreen.xib in Resources */,
 				F2375A291B21A2460019DFD5 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2375A241B21A2460019DFD5 /* ViewController.swift in Sources */,
+				F2375A451B21A3CA0019DFD5 /* NotificationOneViewController.swift in Sources */,
 				F2375A221B21A2460019DFD5 /* AppDelegate.swift in Sources */,
+				F2375A4C1B21A7110019DFD5 /* NotificationTwoViewController.swift in Sources */,
+				F2375A481B21A4120019DFD5 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2375A381B21A2460019DFD5 /* MockingInSwiftTests.swift in Sources */,
+				F2375A831B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift in Sources */,
+				F2375A4A1B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2375A251B21A2460019DFD5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2375A261B21A2460019DFD5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2375A2A1B21A2460019DFD5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = MockingInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = MockingInSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +406,7 @@
 				INFOPLIST_FILE = MockingInSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingInSwift.app/MockingInSwift";
 			};
 			name = Debug;
@@ -379,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
