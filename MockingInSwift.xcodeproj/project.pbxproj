@@ -15,6 +15,9 @@
 		F2375A4A1B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A491B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift */; };
 		F2375A4C1B21A7110019DFD5 /* NotificationTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A4B1B21A7110019DFD5 /* NotificationTwoViewController.swift */; };
 		F2375A831B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */; };
+		F2375A861B222C180019DFD5 /* URLRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A851B222C180019DFD5 /* URLRequestViewController.swift */; };
+		F2375A891B2238690019DFD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A881B2238690019DFD5 /* User.swift */; };
+		F2375A8B1B223B270019DFD5 /* URLRequestViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2375A8A1B223B270019DFD5 /* URLRequestViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		F2375A491B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationOneViewControllerTests.swift; path = NotificationOne/NotificationOneViewControllerTests.swift; sourceTree = "<group>"; };
 		F2375A4B1B21A7110019DFD5 /* NotificationTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationTwoViewController.swift; path = NotificationTwo/NotificationTwoViewController.swift; sourceTree = "<group>"; };
 		F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationTwoViewControllerTests.swift; path = NotificationTwo/NotificationTwoViewControllerTests.swift; sourceTree = "<group>"; };
+		F2375A851B222C180019DFD5 /* URLRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRequestViewController.swift; path = URLRequest/URLRequestViewController.swift; sourceTree = "<group>"; };
+		F2375A881B2238690019DFD5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = URLRequest/User.swift; sourceTree = "<group>"; };
+		F2375A8A1B223B270019DFD5 /* URLRequestViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRequestViewControllerTests.swift; path = URLRequest/URLRequestViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				F2375A461B21A3D00019DFD5 /* NotificationOne */,
 				F2375A4D1B21A71E0019DFD5 /* NotificationTwo */,
 				F2375A471B21A4120019DFD5 /* NotificationView.swift */,
+				F2375A871B222C1F0019DFD5 /* URLRequest */,
 				F2375A281B21A2460019DFD5 /* Images.xcassets */,
 				F2375A2A1B21A2460019DFD5 /* LaunchScreen.xib */,
 				F2375A1F1B21A2460019DFD5 /* Supporting Files */,
@@ -105,6 +112,7 @@
 			children = (
 				F2375A811B21D52E0019DFD5 /* NotificationOneTests */,
 				F2375A841B21D5690019DFD5 /* NotificationTwoTests */,
+				F2375A8C1B223B420019DFD5 /* URLRequest */,
 				F2375A351B21A2460019DFD5 /* Supporting Files */,
 			);
 			path = MockingInSwiftTests;
@@ -148,6 +156,23 @@
 				F2375A821B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift */,
 			);
 			name = NotificationTwoTests;
+			sourceTree = "<group>";
+		};
+		F2375A871B222C1F0019DFD5 /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A851B222C180019DFD5 /* URLRequestViewController.swift */,
+				F2375A881B2238690019DFD5 /* User.swift */,
+			);
+			name = URLRequest;
+			sourceTree = "<group>";
+		};
+		F2375A8C1B223B420019DFD5 /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F2375A8A1B223B270019DFD5 /* URLRequestViewControllerTests.swift */,
+			);
+			name = URLRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +276,8 @@
 			files = (
 				F2375A451B21A3CA0019DFD5 /* NotificationOneViewController.swift in Sources */,
 				F2375A221B21A2460019DFD5 /* AppDelegate.swift in Sources */,
+				F2375A891B2238690019DFD5 /* User.swift in Sources */,
+				F2375A861B222C180019DFD5 /* URLRequestViewController.swift in Sources */,
 				F2375A4C1B21A7110019DFD5 /* NotificationTwoViewController.swift in Sources */,
 				F2375A481B21A4120019DFD5 /* NotificationView.swift in Sources */,
 			);
@@ -260,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2375A8B1B223B270019DFD5 /* URLRequestViewControllerTests.swift in Sources */,
 				F2375A831B21D5600019DFD5 /* NotificationTwoViewControllerTests.swift in Sources */,
 				F2375A4A1B21A5ED0019DFD5 /* NotificationOneViewControllerTests.swift in Sources */,
 			);
