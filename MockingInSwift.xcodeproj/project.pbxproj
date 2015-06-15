@@ -219,6 +219,7 @@
 		F2375A141B21A2460019DFD5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Dominik Hauser";
 				TargetAttributes = {
@@ -474,6 +475,7 @@
 				F2375A3D1B21A2460019DFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2375A3E1B21A2460019DFD5 /* Build configuration list for PBXNativeTarget "MockingInSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +484,7 @@
 				F2375A401B21A2460019DFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
